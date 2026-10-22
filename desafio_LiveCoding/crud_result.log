@@ -1,20 +1,20 @@
-=== Executando Teste CRUD Dinâmico na URL: http://localhost:4000 ===
-Data da execução: Thu Oct 22 07:28:55 PM UTC 2026
+=== Executando Teste CRUD Dinâmico na URL: http://localhost:3000 ===
+Data da execução: Thu Oct 22 07:31:50 PM UTC 2026
 
 1. Criando o primeiro veículo (POST)...
-Resposta do Servidor (POST 1): {"id":3,"placa":"ABC1234","montadora":"Volkswagen","modelo":"Gol","status":"DISPONIVEL"}
+Resposta do Servidor (POST 1): 
 ./teste_crud.sh: line 26: [: too many arguments
--> ID do Veículo 1 capturado via jq: 3
+-> ID do Veículo 1 capturado via jq: 
 
 2. Criando o segundo veículo (POST)...
-Resposta do Servidor (POST 2): {"id":4,"placa":"XYZ9876","montadora":"Chevrolet","modelo":"Onix","status":"DISPONIVEL"}
+Resposta do Servidor (POST 2): 
 ./teste_crud.sh: line 43: [: too many arguments
--> ID do Veículo 2 capturado via jq: 4
+-> ID do Veículo 2 capturado via jq: 
 
-3. Atualizando o status do veículo 1 (ID: 3) (PATCH)...
-{"mensagem":"Status atualizado com sucesso!","veiculo":{"id":3,"placa":"ABC1234","montadora":"Volkswagen","modelo":"Gol","status":"EM MANUTENÇÃO"}}
+3. Atualizando o status do veículo 1 (ID: ) (PATCH)...
 
-4. Removendo o veículo 2 (ID: 4) (DELETE)...
-{"mensagem":"Veiculo ID 4 removido com sucesso."}
+
+4. Removendo o veículo 2 (ID: ) (DELETE)...
+
 
 === Teste CRUD concluído com sucesso! Logs salvos em crud_result.log ===
