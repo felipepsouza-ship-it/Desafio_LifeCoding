@@ -1,0 +1,32 @@
+=================================================================
+   AUTOMACAO DE TESTES HTTP - SISTEMA DE CHAMADOS DE T.I.       
+   DATA DE EXECUCAO: Thu Nov  5 04:49:52 PM UTC 2026
+=================================================================
+
+--- [1/12] GET /tecnicos (Listar todos os tecnicos) ---
+
+--- [2/12] GET /tecnicos?especialidade=Redes (Filtrar por Query Param) ---
+
+--- [3/12] POST /tecnicos (Cadastrar novo tecnico - Status 201) ---
+
+--- [4/12] POST /tecnicos (Teste de Validacao - Status 400 Bad Request) ---
+
+--- [5/12] PUT /tecnicos/1 (Substituir dados do tecnico ID 1) ---
+
+--- [6/12] PATCH /tecnicos/2/especialidade (Atualizacao parcial da especialidade) ---
+
+--- [7/12] GET /chamados?status=ABERTO (Filtrar chamados por status) ---
+
+--- [8/12] POST /chamados (Abrir novo chamado vinculado ao tecnico 3) ---
+
+--- [9/12] PATCH /chamados/1/status (Atualizar status do chamado 1 para EM_ANDAMENTO) ---
+
+--- [10/12] GET /chamados/99 (Teste de Recurso Inexistente - Status 404 Not Found) ---
+
+--- [11/12] DELETE /chamados/2 (Remover chamado ID 2) ---
+
+--- [12/12] GET /chamados (Listagem final de chamados) ---
+
+=================================================================
+   SUITE DE TESTES CONCLUIDA! LOG SALVO EM: resultado_execucao.log           
+=================================================================
